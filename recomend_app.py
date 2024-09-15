@@ -8,11 +8,11 @@ from google.cloud import texttospeech
 
 # Base URL and API key for AIML API
 BASE_URL = 'https://api.aimlapi.com'
-API_KEY = ''
+API_KEY = st.secrets["API_KEY"]
 
 # Google Custom Search API details
-GOOGLE_API_KEY = ""  # Replace with your API key
-GOOGLE_CX = ""  # Replace with your custom search engine ID
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]  # Replace with your API key
+GOOGLE_CX = st.secrets["GOOGLE_CX"]  # Replace with your custom search engine ID
 
 # Custom CSS for styling
 st.markdown(
