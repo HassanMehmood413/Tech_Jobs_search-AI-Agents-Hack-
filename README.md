@@ -17,7 +17,7 @@ This Streamlit app provides job recommendations based on job titles, job descrip
 ```bash
 
 
-git clone https://github.com/yourusername/tech-jobs-recommender.git
+git clone https://github.com/HassanMehmood413/Tech_Jobs_search-AI-Agents-Hack-.git
 cd tech-jobs-recommender
 
 ```
